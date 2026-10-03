@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background: #050b18;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background: #071225;
+}
+
+
+header h2 {
+    color: #4da6ff;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+nav a:hover {
+    color: #4da6ff;
+}
+
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 50px 100px;
+
+    background:
+        linear-gradient(
+            rgba(5, 11, 24, 0.5),
+            rgba(5, 11, 24, 0.9)
+        ),
+        url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+.hero-text p:first-child {
+    color: #4da6ff;
+    font-size: 25px;
+}
+
+
+h1 {
+    font-size: 90px;
+    margin: 10px 0;
+}
+
+
+.hero-text h3 {
+    font-size: 20px;
+    color: #b8c7df;
+}
+
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+button {
+    margin-top: 20px;
+
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: #087cff;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #087cff;
+}
+
+
+.cards {
+    display: flex;
+    gap: 25px;
+
+    padding: 50px;
+
+    justify-content: center;
+}
+
+
+.card {
+    width: 220px;
+
+    padding: 25px;
+
+    background: #0b162b;
+
+    border: 1px solid #1b4f91;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #176cff;
+}
+
+
+.card p {
+    color: #b8c7df;
+    line-height: 1.5;
+}
